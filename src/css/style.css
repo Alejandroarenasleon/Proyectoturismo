@@ -1,3 +1,13 @@
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
 *{
     margin: 0%;
     box-sizing: border-box;
@@ -39,18 +49,24 @@ h1{
     font-size: 45px;
     margin-bottom: 25px;
     font-style: italic;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 h2{
     margin-bottom: 25px;
     margin-top: 10px;
     font-size: 25px;
     font-style: italic;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .articulo{
     font-style: italic;
     text-align: center;
     font-size: 22px;
     margin-bottom: 30px;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .articulo__texto{
     list-style: none;
@@ -74,6 +90,8 @@ h2{
     justify-content: space-between;
     padding-top: 20px;
     padding-right: 5%;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .informacion{
     display: flex;
@@ -107,6 +125,8 @@ h2{
     font-style: italic;
     color:var(--texto-color);
     flex-direction: row;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .yate__texto{
     font-size: 30px;
@@ -117,6 +137,8 @@ h2{
 }
 dd{
     font-size: 20px;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .yate__img{
     width: 900px;
@@ -148,6 +170,8 @@ dd{
     font-style: italic;
     margin-bottom: 25px;
     color: var(--texto-color);
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .innovation__margen{
     width: 100%;
@@ -165,6 +189,8 @@ dd{
     margin-top: 15px;
     margin-bottom: 20px;
     color: var(--texto-color);
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .more__margen{
     width: 100%;
@@ -182,6 +208,8 @@ dd{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 15px;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .formulario__margen{
     width: 100%;
@@ -204,6 +232,8 @@ h3{
     font-style: italic;
     margin-top: 10px;
     margin-bottom: 10px;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 .info__margen{
     width: 100%;
