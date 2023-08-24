@@ -5,45 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <style>
-        *{
-            background-color: rgb(144, 92, 193);
-        }
-    </style>
-    <header>
-        <img src="src/logo.PNG" alt="img">
-        <nav>
-            <a href="examen.html"><li>Home</li></a>
-            <a href="menu1.html"><li>Icacos Booat</li></a>
-            <a href="menu1.1.1.html"><li>Private Chartes </li></a>
-            <a href="menu2.html"><li>More</li></a>
-            <li></li>
-            <img src="src/fuente.PNG" alt="img">
+    <header class="menu__margen">
+        <nav class="menu">
+            <nav>
+                <img src="src/logo.PNG" alt="img">
+            </nav>
+            <nav>
+                <ul class="menu__texto">
+                    <li class="menu__texto">
+                        <a href="examen.html" class="menu__texto">Home</a>
+                    </li>
+                    <li class="menu__texto">
+                        <a href="menu1.html" class="menu__texto">Icacos Booat</a>
+                    </li>
+                    <li class="menu__texto">
+                        <a href="menu1.1.1.html" class="menu__texto">Private Chartes</a>
+                    </li>
+                    <li class="menu__texto">
+                        <a href="menu2.html" class="menu__texto">More</a>
+                    </li>
+                    <li>
+                        <img src="src/fuente.PNG" alt="img">
+                    </li>
+                </ul>
+            </nav>
         </nav>
     </header>
     <section>
-        <article>
-            <h1>Snorkeling Tours to Icaco's Island</h1>
-            <h2>Join Our Excellent Local Crew On This Fun Snorkeling Experience</h2>
-            <nav>
-                <li>EXPLORE OUR TOURS</li>
+        <article class="articulo__margen">
+            <nav class="articulo">
+                <img src="src/css.PNG">
+                <h1>Snorkeling Tours to Icaco's Island</h1>
+                <h2>Join Our Excellent Local Crew On This Fun Snorkeling Experience</h2>
+                <ul>
+                    <li class="articulo__texto">EXPLORE OUR TOURS</li>
+                </ul>
             </nav>
         </article>
     </section>
-    <footer>
+    <footer class="informacion__margen">
         <img src="src/logo.PNG" alt="img">
-        <nav>
-            <a href="https://www.facebook.com/weymaralejandro.arenasleon.9"><li>Facebook</li></a>
-           <img src="src/fACEBOOK.PNG" alt="img">
-           <li>Ubicacion</li>
-           <img src="src/ubi.PNG" alt="img">
-           <a href="https://www.instagram.com/ale_0567/"><li>instagran</li></a>
-           <img src="src/instagran.PNG" alt="img">
-        </nav>
-        <img src="src/telefono.PNG" alt="img"><h2>676-716-17</h2>
-        <img src="src/correo.PNG" alt="img"><h2>weymararenasare676@gmail.com</h2>
+        <nav class="informacion__diseño">
+            <nav>
+                <ul class="informacion">
+                    <li>
+                        <a href="https://www.facebook.com/weymaralejandro.arenasleon.9"><dt class="informacion"> Facebook</dt></a>
+                        <img src="src/fACEBOOK.PNG" alt="img" class="articulo__icono">
+                    </li>
+                    <li>
+                        <dt class="informacion"> ubicacion</dt>
+                        <img src="src/ubi.PNG" alt="img" class="articulo__icono">
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ale_0567/"><dt class="informacion">instagran</dt></a>
+                        <img src="src/instagran.PNG" alt="img" class="articulo__icono">
+                    </li>
+                    <li>
+                        <dt class="informacion">676-716-17</dt>
+                        <img src="src/telefono.PNG" alt="img" class="articulo__icono">  
+                    </li>
+                    <li>
+                        <dt class="informacion">weymararenasare676@gmail.com</dt>
+                        <img src="src/correo.PNG" alt="img" class="articulo__icono">
+                    </li>
+                </ul>
+            </nav>
     </footer>
 </body>
 </html>

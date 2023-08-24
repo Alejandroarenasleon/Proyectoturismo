@@ -5,47 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Contact</h1>
-        <h2>Have any last minute questions?</h2>
+    <header class="menu__margen">
+        <nav class="menu">
+            <nav>
+                <img src="src/logo.PNG" alt="img">
+            </nav>
+            <nav>
+                <ul class="menu__texto">
+                    <li class="menu__texto">
+                        <a href="examen.html" class="menu__texto">Home</a>
+                    </li>
+                    <li class="menu__texto">
+                        <a href="menu1.html" class="menu__texto">Icacos Booat</a>
+                    </li>
+                    <li class="menu__texto">
+                        <a href="menu1.1.1.html" class="menu__texto">Private Chartes</a>
+                    </li>
+                    <li class="menu__texto">
+                        <a href="menu2.html" class="menu__texto">More</a>
+                    </li>
+                    <li>
+                        <img src="src/fuente.PNG" alt="img">
+                    </li>
+                </ul>
+            </nav>
+        </nav>
     </header>
     <section>
-        <article>
+        <article class="formulario__margen">
+            <h1>Contact</h1>
+            <h2>Have any last minute questions?</h2>
             <form action="/my-handling-form-page" method="post">
                 <ul>
-                    <li>
-                      <label for="name">Name:</label>
-                      <input type="text" id="name" name="user_name" />
+                    <li class="formulario">
+                      <label for="name" class="formulario">Name:</label>
+                      <input type="text" id="name" name="user_name" class="formulario"/>
                     </li>
-                    <li>
-                      <label for="mail">Last:</label>
-                      <input type="email" id="mail" name="user_mail" />
+                    <li class="formulario">
+                      <label for="mail" class="formulario">Last:</label>
+                      <input type="email" id="mail" name="user_mail" class="formulario"/>
                     </li>
-                    <li>
-                        <label for="mail">Email:</label>
-                        <input type="email" id="mail" name="user_mail" />
+                    <li class="formulario">
+                        <label for="mail" class="formulario">Email:</label>
+                        <input type="email" id="mail" name="user_mail" class="formulario"/>
                     </li>
-                    <li>
-                        <label for="mail">Phone:</label>
-                        <input type="email" id="mail" name="user_mail" />
+                    <li class="formulario">
+                        <label for="mail" class="formulario">Phone:</label>
+                        <input type="email" id="mail" name="user_mail" class="formulario"/>
                     </li>
-                    <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                    <li class="formulario">
+                        <label for="msg" class="formulario">Message:</label>
+                        <textarea id="msg" name="user_message" class="formulario"></textarea>
                     </li>
-                    <li>
-                        <label for="carrots">I'm not a robot</label>
+                    <li class="formulario">
+                        <label for="carrots" class="formulario">I'm not a robot</label>
                         <input
                             type="checkbox"
                             id="carrots"
                             name="vegetable"
                             value="carrots"
-                            checked />
+                            checked  vclass="formulario"/>
                     </li>
-                    <li class="button">
-                        <button type="submit">SUBTMIT</button>
+                    <li class="formulario" class="button" >
+                        <button type="submit" class="formulario">SUBTMIT</button>
                     </li>
                   </ul>
             </form>
