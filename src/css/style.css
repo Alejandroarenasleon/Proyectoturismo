@@ -83,7 +83,7 @@ h2{
     padding:15px;
     border:5px solid var(--borde-color) ;
     margin:10px;
-    background:linear-gradient(var(--degrade-color),var(--degrade-colors));
+    background-image: url("../fondo.PNG");
 }
 .informacion__diseño{
     display: flex;
